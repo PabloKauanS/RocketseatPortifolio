@@ -1,0 +1,48 @@
+.perfil {
+  text-align: center;
+  font-weight: 700;
+}
+.perfil p {
+  font-weight: 300;
+}
+.informacoes li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+}
+.informacoes li:nth-child(-n + 5) {
+  margin-bottom: 30px;
+}
+.tecnologias ul {
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.tecnologias li {
+  background-color: #cb92b1;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-size: 10px;
+  padding: 5px 10px;
+}
+.experiencia ul,
+.educacao ul {
+  list-style: disc;
+  padding: 20px 30px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.experiencia li:nth-child(n + 2),
+.educacao li:nth-child(n + 2) {
+  margin-top: 10px;
+}
+.experiencia div,
+.educacao div {
+  font-weight: 300;
+}

@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  text-decoration: none;
+  background: #22212c;
+  font-family: "Merriweather Sans";
+  color: #837e9f;
+}
+span {
+  position: relative;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: minmax(200px, 350px) minmax(200px, 2000px);
+  padding: 40px;
+  gap: 60px;
+}
+.card {
+  background-color: #302f3d;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+p {
+  margin-top: 20px;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+}
