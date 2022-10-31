@@ -25,6 +25,10 @@
     gap: 10px;
     padding: 10px;
   }
+  .experiencia ul,
+  .educacao ul {
+    margin: 0px;
+  }
   .tecnologias li {
     padding: 16px;
     align-self: center;
@@ -46,10 +50,6 @@
   .tecnologias li {
     padding: 10px;
   }
-  .experiencia ul,
-  .educacao ul {
-    margin: 0px;
-  }
 }
 @media (max-width: 360px) {
   .grid {
@@ -57,5 +57,9 @@
   }
   .projeto-caixa-baixo > span::before {
     display: none;
+  }
+  .card {
+    margin-bottom: 10px;
+    padding: 20px;
   }
 }
